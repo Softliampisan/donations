@@ -1,0 +1,46 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers horizontally */
+  justify-content: flex-start; /* you can use center if you want vertical centering too */
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Center a column and limit its width */
+.content {
+  max-width: 900px;        /* your page column width */
+  margin: 0 auto;          /* centers horizontally */
+}
+
+/* Make form and table fill the content column but not the full viewport */
+.donation-form {
+  max-width: 700px;
+  margin: 0 auto;          /* centers the form within the column */
+  width: 100%;
+}
+
+.donation-form input,
+.donation-form select {
+  display: block;
+  width: 100%;        /* make them fill the form's width */
+  box-sizing: border-box;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+.donations-table {
+  border-collapse: collapse;
+  margin-top: 24px;
+  width: 100%;            /* spans the content column */
+  max-width: 900px;
+  text-align: center;     /* default center alignment for all cells */
+}
+
+.donations-table th,
+.donations-table td {
+  border: 1px solid #ddd; /* optional: makes the table clearer */
+  padding: 8px;
+  text-align: center;     /* ensures both header & body are centered */
+}
