@@ -29,8 +29,8 @@ pip install -r requirements.txt
 ### 3. Run Flask
 flask run
 
-✅ The project includes a .flaskenv file, so you don’t need to manually export environment variables — Flask will auto-load them.
-By default, the backend runs at http://127.0.0.1:5000
+> The project includes a .flaskenv file, so you don’t need to manually export environment variables — Flask will auto-load them.
+> By default, the backend runs at http://127.0.0.1:5000
 
 ### Frontend (Vite + React)
 In a new terminal (leave Flask running):
