@@ -1,7 +1,6 @@
 # Donations
 
-Donation Inventory — Setup & Run
-A simple full-stack app: Flask + SQLite backend and Vite + React frontend.
+Donation Inventory — Setup & Run: Flask + SQLite backend and Vite + React frontend.
 
 ### Prerequisites
 
