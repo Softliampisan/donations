@@ -21,8 +21,6 @@ app = Flask(__name__)
 # SQLite database file
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///donations.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-
-# Allow all origins for simplicity (OK for local dev)
 CORS(app)
 
 db = SQLAlchemy(app)
